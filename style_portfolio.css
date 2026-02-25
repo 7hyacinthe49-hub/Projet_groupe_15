@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    border-radius: 20px;
+    border: solid 5px rgb(10, 28, 48);    
+}
+ul {
+    display: flex; gap: 20px;
+    list-style: none;
+    padding-right: 10px;
+}
+nav {
+    background-color: rgb(10, 28, 48);;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px; 
+    color: antiquewhite;
+}
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+.image {
+    width: 250px; height: 250px;
+    object-fit: cover;
+    border-radius: 50%;  
+    float: left;
+}
+.identity {
+    height: 350px;
+    background-color: rgb(10, 28, 48);
+    padding-top: 30px; padding-left: 20px; 
+   
+}
+.about {
+    justify-content: center;
+    display: block; float: left;
+     margin-left: 70px;
+     color: antiquewhite;
+     padding-top: 50px; 
+}
+.nom {
+    font-size: 35px;
+    line-height: 35px;
+}
+.birth {
+    font-size: 22px;line-height: 30px; padding-top: 30px;
+}
+.plus {
+    padding-top: 30px;
+    background-color: rgb(29, 64, 110);
+    width: 300px;
+    float: left;
+    clear: both;
+    height: 1200px;
+    border-radius: 20px; 
+    border: solid 5px rgb(10, 28, 48);
+    margin-top: 10px; 
+}
+.info {
+   text-decoration: underline; font-weight: 700;
+   margin-left: 20px;
+   font-size: 22px;
+   padding-top: 20px;
+   color: white;
+}
+.answer {
+    margin-left: 20px;
+    font-size: 22px;
+    padding-top: 10px; padding-bottom: 40px;
+    max-height: none;
+    color: white;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    border-width: 400px;
+    border-bottom: 5px rgb(10, 28, 48) solid;
+    border-top: 5px rgb(10, 28, 48) solid;
+    color: rgb(10, 28, 48) ;
+    border-radius: 30px;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+.contenu {
+    font-size: 22px;
+    padding-bottom: 50px; padding-top: 30px;
+    margin-left: 540px;
+    line-height: 28px;
+    
+}
+.contenu ul  {
+    list-style: circle;
+   display: block;  
+}
+#objectif {
+    width: 600px;
+    text-indent: 2em;  
+}
+.sousf {
+    margin-left: -80px;
+    text-align: left;
+}
+a {
+    text-decoration: none;
+}
+h3 {
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.plus p a {
+    color: white;
+}
+.plus p a :hover {
+    color: aquamarine;
+    animation-delay: 500ms;
+}
